@@ -215,8 +215,8 @@ span.fade {
     font-size: 1.5rem;
   }
   .project-box {
-    width: 95%;
-    margin-top: 5%;
+    width: 99%;
+    margin-top: 8%;
     height: 26%;
     box-shadow: 6px 10px 8px 10px #d3d3d3;
   }
@@ -243,5 +243,11 @@ span.fade {
   }
   header {
     margin-top: 0%;
+  }
+  .projects h3 {
+    margin-top: 1%;
+  }
+  .projects p {
+    font-size: 1.2rem;
   }
 }
