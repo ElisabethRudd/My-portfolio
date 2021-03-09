@@ -6,11 +6,18 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Satisfy&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"
+    />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <nav><a>About Me</a> <a>My Projects</a> <a>Contact Me</a></nav>
+    <nav>
+      <a href="#about-me">About Me</a> <a href="#projects">My Projects</a>
+      <a href="#contact">Contact Me</a>
+    </nav>
     <header>
       <div class="header-des">
         <div class="welcome"><h1>Welcome</h1></div>
@@ -22,7 +29,7 @@
     </header>
     <main>
       <!--Project Section-->
-      <div class="projects">
+      <div class="projects" id="projects">
         <div class="project-title"><h2>My Projects</h2></div>
         <div class="project-box">
           <img src="Screenshot (2).png" alt="" />
@@ -53,7 +60,7 @@
         </div>
       </div>
       <!--About Me Section-->
-      <div class="about-me">
+      <div class="about-me" id="about-me">
         <div class="about-title"><h2>About Me</h2></div>
         <div class="about-words">
           <p>
@@ -78,7 +85,7 @@
       </div>
     </main>
     <footer>
-      <div class="contact">
+      <div class="contact" id="contact">
         <div class="contact-overlay">
           <a href="contact.html">Contact Me</a>
         </div>

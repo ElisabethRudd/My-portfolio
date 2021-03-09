@@ -1,6 +1,6 @@
 //Welcome animation
 const text = document.querySelector(".welcome");
-console.log(text);
+
 const strText = text.textContent;
 const splitText = strText.split("");
 text.textContent = "";
@@ -28,24 +28,12 @@ function complete() {
   clearInterval(timer);
   timer = null;
 }
-// background color change
-
-//function backgroundChange() {
-// if (this.scrollY > this.innerHeight) {
-//  document.body.classList.add("white-background");
-//} else {
-//  document.body.classList.remove("white-background");
-//}
-//}
-//window.addEventListener("scroll", backgroundChange);
 
 // creates mouseover gray for project box;
 const boxes = document.querySelector(".project-box");
 const boxes2 = document.querySelectorAll(".project-box");
 const overlayBox = document.querySelectorAll(".project-overlay");
 
-console.log(boxes);
-console.log(boxes2);
 for (let i = 0; i < boxes2.length; i++) {
   boxes2[i].addEventListener("mouseover", function () {
     boxes2[i].style.backgroundColor = "lightgray";
@@ -59,5 +47,3 @@ for (let i = 0; i < boxes2.length; i++) {
   });
 }
 // creates overlay with link for project box
-
-overlayDiv.appendChild(overlayText);
